@@ -1,6 +1,6 @@
 # Yii + Mailexam
 
-Minimal [Yii 2](https://www.yiiframework.com/) example that sends test mail through [Mailexam](https://mailexam.ru/) SMTP via [yii2-symfonymailer](https://github.com/yiisoft/yii2-symfonymailer).
+Minimal [Yii 2](https://www.yiiframework.com/) example that sends test mail through [Mailexam](https://mailexam.io/) SMTP via [yii2-symfonymailer](https://github.com/yiisoft/yii2-symfonymailer).
 
 Based on the [Mailexam Yii guide](https://wiki.mailexam.ru/en/examples/yii/).
 
@@ -15,7 +15,7 @@ From your Mailexam welcome email or dashboard:
 |----------|-------------|
 | `MAILEXAM_LOGIN` | SMTP login (for example, `xxxxx`) |
 | `MAILEXAM_PASSWORD` | SMTP password (paired with the login) |
-| Host | `{MAILEXAM_LOGIN}.mailexam.ru` (built in `config/web.php`) |
+| Host | `{MAILEXAM_LOGIN}.mailexam.io` (built in `config/web.php`) |
 
 ## Quick start (host)
 
@@ -111,7 +111,7 @@ variables:
   MAIL_FROM: "noreply@example.test"
 ```
 
-After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.ru/api).
+After sending a message in a test, verify delivery via the [Mailexam API](https://mailexam.io/api).
 
 ## Troubleshooting
 
@@ -121,7 +121,7 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 
 **TLS or connection error**
 
-- Host must be `{login}.mailexam.ru`, where `{login}` matches `MAILEXAM_LOGIN`.
+- Host must be `{login}.mailexam.io`, where `{login}` matches `MAILEXAM_LOGIN`.
 - Login and password must come from the same Mailexam project.
 
 **Environment variables are empty**
@@ -138,4 +138,4 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 - [Mailexam Yii guide (wiki)](https://wiki.mailexam.ru/en/examples/yii/)
 - [Laravel reference implementation](https://github.com/mailexam/Laravel) — another PHP framework
 - [Sending mail in Yii 2](https://www.yiiframework.com/doc/guide/2.0/en/tutorial-mailing)
-- [Mailexam API documentation](https://mailexam.ru/api)
+- [Mailexam API documentation](https://mailexam.io/api)

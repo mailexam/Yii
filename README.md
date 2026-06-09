@@ -137,5 +137,6 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 
 - [Mailexam Yii guide (wiki)](https://wiki.mailexam.ru/en/examples/yii/)
 - [Laravel reference implementation](https://github.com/mailexam/Laravel) — another PHP framework
+- [ThinkPHP reference implementation](https://github.com/mailexam/ThinkPHP) — another PHP framework
 - [Sending mail in Yii 2](https://www.yiiframework.com/doc/guide/2.0/en/tutorial-mailing)
 - [Mailexam API documentation](https://mailexam.io/api)
